@@ -7,6 +7,8 @@ import NoMatch from "./NoMatch";
 import BackButton from "./BackButton";
 import ForwardButton from "./ForwardButton";
 import GoHomeButton from "./GoHomeButton";
+import PostList from "./PostList";
+import User from "./User";
 import "./App.css";
 
 function App() {
@@ -25,7 +27,7 @@ function App() {
           <About />
         </Route>
         <Route path="/users/:userId">
-          <UserProfile />
+          <User />
         </Route>
         <Route>
           <NoMatch />
